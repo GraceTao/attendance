@@ -2,7 +2,7 @@
 
 <body>
    <h2 align="center"> Please fill out the attendance form </h2>
-   <form>
+   <form action="/addstudent" method="POST">
    <div>
    <div class="container">
    <h3 align="left"> Attendance</h3>
@@ -15,12 +15,12 @@
    <br>
    <div>
    <label for="inputDate"> Date </label>
-   <input type="text" name="date" placeholder="Date">
+   <input type="text" name="day" placeholder="Date">
    </div>
    <br>
    <div>
    <label for="inputEmail"> Status </label>
-   <input type="text" name="status" placeholder="Status">
+   <input type="text" name="st" placeholder="Status">
    </div>
    <br>
    <button type="submit" value="submit">Submit</button>
